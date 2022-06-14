@@ -1,0 +1,39 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+.maindiv{
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.player1{
+  text-align: center;
+}
+
+.player2{
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;  
+}
+
+button{
+  height: 35px;
+}
+
+.image-div{
+  margin-left:43%;
+}
+
+img{
+  height: 200px;
+  width: 200px;
+  display: none;
+}
